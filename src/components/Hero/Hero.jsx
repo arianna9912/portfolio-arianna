@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react"
 import "./Hero.css"
 import meImage from '../../assets/ari-img.jpg';
-import reactIcon from '../assets/react.svg';
-import vueIcon from '../assets/logo.png'
-import javaIcon from '../assets/javascript-logo.png'
-import tailIcon from '../assets/tailwind.png'
+
+import reactIcon from '../../assets/react.svg';
+import vueIcon from '../../assets/logo.png'
+import javaIcon from '../../assets/javascript-logo.png'
+import tailIcon from '../../assets/tailwind.png'
 
 
 const Hero = () => {
@@ -71,10 +72,10 @@ const Hero = () => {
                 <div className="hero-img ">
                     <div>
                         <div className="tech-icon">
-                            <img src="/assets/react.svg" alt="Frontend Developer" />
+                            <img src={reactIcon} alt="Frontend Developer" />
                         </div>
 
-                        <img src="/assets/ari-img.jpg" alt="Frontend Developer" className="overflow-hidden rounded-3xl   transition duration-300 hover:filter hover:grayscale" />
+                        <img src={meImage} alt="Frontend Developer" className="overflow-hidden rounded-3xl   transition duration-300 hover:filter hover:grayscale" />
 
 
 
@@ -82,14 +83,14 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className="tech-icon mt-1">
-                            <img src="/assets/logo.png" alt="Frontend Developer" />
+                            <img src={vueIcon} alt="Frontend Developer" />
                         </div>
 
                         <div className="tech-icon mt-1">
-                            <img src="/assets/javascript-logo.png" alt="Frontend Developer" />
+                            <img src={javaIcon} alt="Frontend Developer" />
                         </div>
                         <div className="tech-icon mt-1">
-                            <img src="/assets/tailwind.png" alt="Frontend Developer" />
+                            <img src={tailIcon} alt="Frontend Developer" />
                         </div>
 
                     </div>
