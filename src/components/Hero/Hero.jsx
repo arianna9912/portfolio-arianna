@@ -71,7 +71,7 @@ const Hero = () => {
                 <div className="hero-img ">
                     <div>
                         <div className="tech-icon">
-                            <img src={reactIcon} alt="Frontend Developer" />
+                            <img src="/assets/react.svg" alt="Frontend Developer" />
                         </div>
 
                         <img src="/assets/ari-img.jpg" alt="Frontend Developer" className="overflow-hidden rounded-3xl   transition duration-300 hover:filter hover:grayscale" />
@@ -82,14 +82,14 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className="tech-icon mt-1">
-                            <img src={vueIcon} alt="Frontend Developer" />
+                            <img src="/assets/logo.png" alt="Frontend Developer" />
                         </div>
 
                         <div className="tech-icon mt-1">
-                            <img src={javaIcon} alt="Frontend Developer" />
+                            <img src="/assets/javascript-logo.png" alt="Frontend Developer" />
                         </div>
                         <div className="tech-icon mt-1">
-                            <img src={tailIcon} alt="Frontend Developer" />
+                            <img src="/assets/tailwind.png" alt="Frontend Developer" />
                         </div>
 
                     </div>
