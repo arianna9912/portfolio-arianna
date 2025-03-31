@@ -216,14 +216,12 @@ button:hover svg path {
 
 }
 @media (max-width: 390px) {
-    .hero-content h2 {
-        font-size: 2.0rem; /* Tamaño de fuente más pequeño */
-        line-height: 2.5rem; /* Ajuste del interlineado */
+    .hero-content p {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        text-align: justify;
     }
-    .items-center p {
-        margin-bottom: 0.5rem; /* Reduce el espacio inferior del párrafo */
-        line-height: 1.5; /* Ajuste del interlineado del párrafo */
-    }
+   
 }
 @media (max-width: 690px) {
     .hero-content h2 {
