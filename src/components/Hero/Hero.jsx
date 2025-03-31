@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import "./Hero.css"
-import meImage from '../assets/ari-img.jpg';
+import meImage from '../../assets/ari-img.jpg';
 import reactIcon from '../assets/react.svg';
 import vueIcon from '../assets/logo.png'
 import javaIcon from '../assets/javascript-logo.png'
