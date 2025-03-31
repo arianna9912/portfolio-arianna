@@ -15,7 +15,7 @@ const About = () => {
                     <div
                         class="items-center max-w-screen-xl px-4 py-4 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-10 lg:px-6">
                         <div class="col-span-2 mb-8">
-                            <p class="text-2xl font-light text-purple-500">Computer Science Engineer (2017-2022)</p>
+                            <p class="text-2xl sm:text-xl md:text-xl xs:text-xl font-light text-purple-500">Computer Science Engineer (2017-2022)</p>
                             <p class="mt-2 text-md font-light text-gray-100">💻Computer Engineer specialized in creating management websites and consumption of services rest</p>
                             <p class="font-light  mt-2 text-md text-gray-100">💻I have a solid knowledge of the agile Scrum methodology,which allows me to work collaboratively and adaptively in multidisciplinary teams.</p>
                             <p class="font-light  mt-2 text-md text-gray-100">💻Attention to detail</p>
