@@ -1,0 +1,279 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1,
+h2,
+h3,
+p,
+span {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon-link {
+    display: inline-block;
+    /* Asegura que el enlace se comporte como un bloque en línea */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transiciones suaves para fondo y color de texto */
+    color: #8a27ce;
+    /* Color de texto inicial */
+}
+
+.svg-fill {
+    transition: fill 0.3s ease;
+    /* Transición suave para el cambio de color del SVG */
+}
+
+.icon-link:hover .svg-fill {
+    fill: white;
+    /* Cambia el color del SVG a blanco al pasar el mouse */
+}
+
+.icon-link:hover {
+    background-color: #6b46c1;
+    /* Cambia el fondo a purple-600 al pasar el mouse */
+    color: white;
+    /* Cambia el color del texto a blanco al pasar el mouse */
+}
+
+.hero-container::after,
+.hero-container::before {
+    content: "";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #7c66e3;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px)
+}
+
+.hero-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.hero-container::before {
+    bottom: 2rem;
+    right: 0rem;
+}
+
+.hero-content {
+    flex: 1;
+
+}
+
+.hero-content h2 {
+    font-size: 3.0rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+button:hover svg path {
+    fill: #ffffff;
+    /* Cambia el color del ícono a blanco al hacer hover */
+}
+
+.hero-img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.hero-img>div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+
+}
+
+.hero-img>div>img {
+    width: 20rem;
+    transition: all 0.3s ease;
+}
+
+.tech-icon {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba
+}
+
+.tech-icon img {
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+
+}
+
+.hero-img>div>img :hover,
+.tech-icon img:hover {
+    transform: translateY(-0.5rem);
+}
+
+@media (max-width:1025px) {
+    .hero-content h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        text-align: justify;
+    }
+
+    .hero-img>div {
+        width: 16rem;
+
+    }
+
+    .tech-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+
+    }
+
+    .tech-icon img {
+        width: 2.5rem;
+
+
+    }
+}
+
+@media (max-width:768px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .hero-container h2 {
+        margin-top: 3rem;
+    }
+
+    .hero-content h2,
+    .hero-content p {
+        width: auto;
+        text-align: justify;
+    }
+
+    .hero-container::after,
+    .hero-container::before {
+        content: "";
+        width: 18rem;
+        height: 18rem;
+
+    }
+
+    .hero-container::after {
+        top: 0rem;
+        left: 0rem;
+    }
+
+    .hero-container::before {
+        bottom: 2rem;
+        right: 0rem;
+
+    }
+
+}
+
+
+@media (max-width: 690px) {
+    .hero-content h2 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        text-align: justify;
+    }
+
+    .hero-img {
+        gap: 1rem;
+    }
+
+    .hero-img>div {
+        gap: 1rem;
+    }
+
+    .hero-img>div>img {
+        width: 13rem;
+    }
+
+    .tech-icon {
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .tech-icon img {
+        width: 2rem;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .hero-content h2 {
+        font-size: 2.6rem;
+        line-height: 3.6rem;
+    }
+
+    .hero-content p {
+        font-size: 0.85rem;
+        line-height: 1.4rem;
+        text-align: justify;
+    }
+
+    .hero-img>div {
+        width: 25rem;
+    }
+
+    .tech-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .tech-icon img {
+        width: 3.5rem;
+    }
+}

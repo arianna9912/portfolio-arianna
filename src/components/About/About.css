@@ -1,0 +1,11 @@
+p{
+    text-align: justify;
+}
+
+.bg-card{
+    min-height: 23rem;
+    border-radius: 0.65rem;
+    border:1.5px solid #6751b9;
+    background: rgba(22,17,47,0.398);
+    backdrop-filter: blur(1rem);
+}

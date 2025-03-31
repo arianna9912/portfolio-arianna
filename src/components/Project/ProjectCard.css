@@ -1,0 +1,15 @@
+.bg-cards{
+    min-height: 23rem;
+    border-radius: 0.65rem;
+    border:1.5px solid #6751b9;
+    background: rgba(22,17,47,0.398);
+    backdrop-filter: blur(1rem);
+}
+p{
+    text-align: justify;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
