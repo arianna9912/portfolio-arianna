@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    height: 100%;
+    /* Asegúrate de que el html y body ocupen toda la altura */
+    margin: 0;
+    /* Elimina los márgenes predeterminados */
+    padding: 0;
+    /* Elimina el padding predeterminado */
+    width: 100%;
+    opacity: 0.9;
+    background-color:  #060416
+}
+
+.bg-white {
+    background-color:#F3E8FF ;
+}
+
+
+.circle-image {
+    border-radius: 50%;
+    /* Hace que la tarjeta sea circular */
+    height: 100px;
+    /* Altura de la tarjeta */
+    width: 100px;
+    /* Ancho de la tarjeta */
+
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+
+.vertical-text {
+    writing-mode: vertical-rl; /* Hace que el texto sea vertical */
+    transform: rotate(180deg); /* Rota el texto para que se lea de abajo hacia arriba */
+    text-align: center; /* Centra el texto */
+    font-family:'Poppins';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800; /* Hace el texto más grueso */
+  }
+
+  @keyframes wave {
+    0%, 20%, 50%, 80%, 100% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(30deg);
+    }
+    60% {
+      transform: rotate(10deg);
+    }
+  }
+  
+  .animate-wave {
+    display: inline-block;
+    animation: wave 1s infinite; /* Cambia la duración según sea necesario */
+  }
