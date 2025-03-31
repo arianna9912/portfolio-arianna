@@ -10,16 +10,16 @@ const About = () => {
                 <div className="bg-card rounded-lg p-6 mb-2 shadow-xl transform transition-transform duration-300 hover:scale-105  w-full">
 
                     <div className="px-4 sm:px-0 mt-2 text-center divider">
-                        <h3 className="text-3xl font-semibold text-white">Who I am?</h3>
+                        <h3 className="text-3xl font-semibold text-white">Who am I?</h3>
                     </div>
                     <div
                         class="items-center max-w-screen-xl px-4 py-4 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-10 lg:px-6">
                         <div class="col-span-2 mb-8">
-                            <p class="text-2xl font-light text-purple-500">Computer  Science Engineer (2017-2022)</p>
+                            <p class="text-2xl font-light text-purple-500">Computer Science Engineer (2017-2022)</p>
                             <p class="mt-2 text-md font-light text-gray-100">💻Computer Engineer specialized in creating management websites and consumption of services rest</p>
                             <p class="font-light  mt-2 text-md text-gray-100">💻I have a solid knowledge of the agile Scrum methodology,which allows me to work collaboratively and adaptively in multidisciplinary teams.</p>
-                            <p class="font-light  mt-2 text-md text-gray-100">💻 Attention to detail</p>
-                            <p class="font-light  mt-2 text-md text-gray-100">💻 Good disposition to learn new technologies</p>
+                            <p class="font-light  mt-2 text-md text-gray-100">💻Attention to detail</p>
+                            <p class="font-light  mt-2 text-md text-gray-100">💻Willing to learn new technologies</p>
 
                         </div>
                         <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">

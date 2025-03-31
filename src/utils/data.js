@@ -21,9 +21,9 @@ export const SKILLS = [
         icon: backend,
         skills: [
             { skill: "SQL", percentage: "75%" },
-            { skill: "MySQL,SQLServer", percentage: "75%" },
+            { skill: "MySQL, SQLServer", percentage: "75%" },
             { skill: "Python", percentage: "80%" },
-            { skill: "Django,Django Rest Framework", percentage: "75%" },
+            { skill: "Django, Django Rest Framework", percentage: "75%" },
             { skill: "C#", percentage: "60%" },
         ],
     },
