@@ -74,7 +74,7 @@ const Hero = () => {
                             <img src={reactIcon} alt="Frontend Developer" />
                         </div>
 
-                        <img src={meImage} alt="Frontend Developer" className="overflow-hidden rounded-3xl   transition duration-300 hover:filter hover:grayscale" />
+                        <img src="/assets/ari-img.jpg" alt="Frontend Developer" className="overflow-hidden rounded-3xl   transition duration-300 hover:filter hover:grayscale" />
 
 
 
