@@ -10,7 +10,7 @@ const Projects = () => {
         {
             title: "Food Control System",
             img: food,
-            description: "Management system for controlling food and services offered to diners, developed with VueJS (3), TypeScript, Prime Vue.",
+            description: "Management system for controlling food and services offered to diners, developed with Nuxt 3, TypeScript, Prime Vue.",
             enterprise: "KYSNOFT"
         },
         {

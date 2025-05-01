@@ -3,7 +3,7 @@ import Hero from '../Hero/Hero.jsx';
 import About from '../about/About.jsx';
 import Skills from '../Skills/Skills.jsx';
 import Projects from '../Project/Projects.jsx';
-import Contact from '../contact/Contact.jsx';
+import Contact from '../Contact/Contact.jsx';
 
 const Home = () => {
     return (

@@ -12,8 +12,9 @@ export const SKILLS = [
             { skill: "CSS3", percentage: "80%" },
             { skill: "Tailwind CSS, Prime Vue, MUI", percentage: "85%" },
             { skill: "Javascript, TypeScript", percentage: "75%" },
-            { skill: "React", percentage: "85%" },
-            { skill: "Vue.js 3", percentage: "85%" },
+            { skill: "React", percentage: "75%" },
+            { skill: "Vue 3", percentage: "85%" },
+            { skill: "Nuxt 3", percentage: "85%" },
         ],
     },
     {

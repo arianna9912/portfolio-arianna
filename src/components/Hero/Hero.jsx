@@ -3,6 +3,7 @@ import "./Hero.css"
 import meImage from '../../assets/ari-img.jpg';
 
 import reactIcon from '../../assets/react.svg';
+import nuxtIcon from '../../assets/nuxt.svg';
 import vueIcon from '../../assets/logo.png'
 import javaIcon from '../../assets/javascript-logo.png'
 import tailIcon from '../../assets/tailwind.png'
@@ -91,6 +92,9 @@ const Hero = () => {
                         </div>
                         <div className="tech-icon mt-1">
                             <img src={tailIcon} alt="Frontend Developer" />
+                        </div>
+                        <div className="tech-icon mt-1">
+                            <img src={nuxtIcon} alt="Frontend Developer" />
                         </div>
 
                     </div>
