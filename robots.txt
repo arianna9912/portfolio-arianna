@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://arianna9912.github.io/portfolio-arianna/sitemap.xml
