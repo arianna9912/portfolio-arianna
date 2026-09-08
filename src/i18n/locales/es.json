@@ -1,0 +1,109 @@
+{
+  "nav": { "about": "Sobre mí", "skills": "Habilidades", "experience": "Experiencia", "projects": "Proyectos", "contact": "Contacto", "contactCta": "Contactar" },
+  "hero": {
+    "eyebrow": "Desarrolladora de Software · CDMX, México",
+    "headline1": "Hola, soy Arianna",
+  
+    "sub": "Construyo productos full stack con React, Vue, Next, Nuxt, Python, Django y FastAPI — donde cada componente, endpoint y evento de analítica encaja como una pieza de arquitectura.",
+    "cta": "Ver proyectos",
+    "cta2": "Contáctame",
+    "meta": [
+      { "n": "03", "t": "Años de experiencia" },
+      { "n": "02", "t": "Países en equipos remotos" },
+      { "n": "10+", "t": "Tecnologías en producción" },
+      { "n": "6", "t": "Frameworks frontend + backend" },
+      { "n": "GA4", "t": "Analítica implementada" }
+    ],
+    "labels": { "ui": "UI", "uilayer": "REACT · VUE · NEXT", "api": "API", "apilayer": "REST · INTEGRACIÓN", "ga4": "DATA", "l1": "UI-LAYER", "l2": "API-SYNC", "l3": "DATA-LAYER" }
+  },
+  "about": {
+    "sectionNum": "§ 01",
+    "title": "Sobre mí",
+    "tag": "perfil · resumen técnico",
+    "p1": "Soy desarrolladora web con <strong>tres años de experiencia</strong> creando aplicaciones responsivas y optimizadas. Trabajo principalmente con <strong>HTML, CSS, JavaScript</strong> y frameworks modernos como React, Vue y sus respectivos meta-frameworks, Next y Nuxt.",
+    "p2": "Me interesa la mejora continua tanto en el código como en el proceso: integro APIs REST de forma limpia, instrumento analítica con GA4 para entender el comportamiento real de usuario, y colaboro bajo metodologías ágiles con foco en entregas continuas.",
+    "p3": "Actualmente curso la <strong>Maestría en Ciencias de la Computación</strong> en la UAM-Azcapotzalco, combinando la práctica profesional con una base teórica más profunda.",
+    "spec": [
+      { "k": "ROL", "v": "Desarrolladora Frontend" },
+      { "k": "STACK PRINCIPAL", "v": "React / Vue / Next / Nuxt", "accent": true },
+      { "k": "INTEGRACIÓN", "v": "APIs RESTful" },
+      { "k": "ANALÍTICA", "v": "Google Analytics 4" },
+      { "k": "METODOLOGÍA", "v": "Scrum · Sprints" },
+      { "k": "FORMACIÓN", "v": "Mtría. Cs. de la Computación" },
+      { "k": "UBICACIÓN", "v": "CDMX, México" }
+    ]
+  },
+  "skills": {
+    "sectionNum": "§ 02",
+    "title": "Habilidades",
+    "tag": "módulos · stack técnico",
+    "groups": [
+      { "idx": "01", "title": "Lenguajes de programación", "chips": ["JavaScript", "TypeScript", "Python"] },
+      { "idx": "02", "title": "Frameworks Frontend", "chips": ["React", "Vue", "Next.js", "Nuxt", "Tailwind CSS", "PrimeVue", "Shadcn"] },
+      { "idx": "03", "title": "Frameworks Backend", "chips": ["Django REST", "FastAPI", "APIs RESTful", "N8N · Automatización"] },
+      { "idx": "04", "title": "Bases de datos", "chips": ["PostgreSQL", "MySQL"] },
+      { "idx": "05", "title": "SEO", "chips": ["Google Analytics 4", "Meta tags / OG", "Sitemap / robots", "Rendimiento"] },
+      { "idx": "06", "title": "Herramientas", "chips": ["Git", "Postman", "Firebase", "Notion", "N8N", "Scrum"] }
+    ]
+  },
+  "experience": {
+    "sectionNum": "§ 03",
+    "title": "Experiencia",
+    "tag": "pipeline · historial profesional",
+    "jobs": [
+      {
+        "role": "Desarrolladora Frontend",
+        "date": "JUN 2025 — MAR 2026",
+        "org": "NQUAL5 · MÉXICO",
+        "bullets": [
+          "Maquetación de interfaces web modernas y responsivas con Next.js y shadcn/ui, priorizando una experiencia fluida y código limpio.",
+          "Integración con servicios de backend mediante consumo de APIs RESTful.",
+          "Implementación de Google Analytics 4 (GA4) y optimización de SEO técnico: meta tags, Open Graph, sitemap y robots.",
+          "Automatización de flujos con N8N para agilizar procesos de datos y operaciones internas.",
+          "Colaboración activa bajo metodologías ágiles (Scrum), participando en planificación de sprints y entregas continuas."
+        ]
+      },
+      {
+        "role": "Desarrolladora Frontend",
+        "date": "MAY 2024 — MAR 2025",
+        "org": "KYNSOFT · ECUADOR",
+        "bullets": [
+          "Maquetación de interfaces web modernas y responsivas con Nuxt.js y PrimeVue, garantizando código limpio y consistente.",
+          "Integración con servicios de backend mediante consumo de APIs REST.",
+          "Desarrollo de componentes reutilizables con Tailwind CSS.",
+          "Colaboración activa bajo metodologías ágiles (Scrum), participando en planificación de sprints y entregas continuas."
+        ]
+      }
+    ],
+    "edu": [
+      { "deg": "Maestría en Ciencias de la Computación", "inst": "UAM-Azcapotzalco", "yr": "ACTUALMENTE" },
+      { "deg": "Ingeniería en Ciencias Informáticas", "inst": "Universidad de las Ciencias Informáticas", "yr": "2017 — 2022" }
+    ]
+  },
+  "projects": {
+    "sectionNum": "§ 04",
+    "title": "Proyectos",
+    "tag": "selección · trabajo reciente",
+    "note": "// tres proyectos reales — enlazados a mis repositorios públicos",
+    "cards": [
+      { "id": "PRJ::0x1", "status": "EN PRODUCCIÓN", "title": "Clínica Vitalis", "desc": "Sitio web para clínica médica con Next.js, shadcn/ui y Tailwind: diseño responsivo, secciones de servicios, especialistas y agendado de citas. Desplegado en Vercel.", "tags": ["Next.js", "shadcn/ui", "Tailwind", "TypeScript"], "img": "/portfolio-arianna/projects/clinica-vitalis.jpg", "url": "https://github.com/arianna9912/medical-clinic" },
+      { "id": "PRJ::0x2", "status": "API · BACKEND", "title": "Medical Backend API", "desc": "API REST para la clínica construida con FastAPI: modelos, schemas, routers y repositorios con documentación Swagger end-to-end.", "tags": ["FastAPI", "Python", "REST", "Swagger"], "img": "/portfolio-arianna/projects/medical-backend.png", "url": "https://github.com/arianna9912/medical-backend" },
+      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Pokédex API", "desc": "Galería de Pokémon que consume la PokeAPI con búsqueda y vista detallada, pensada como práctica de consumo de APIs REST.", "tags": ["JavaScript", "PokeAPI", "REST", "CSS"], "img": "/portfolio-arianna/projects/pokedex.jpg", "url": "https://github.com/arianna9912/poke-api" }
+    ]
+  },
+  "contact": {
+    "sectionNum": "§ 05",
+    "tag": "contacto · disponible para nuevos retos",
+    "heading": "Hablemos de tu próximo proyecto.",
+    "sub": "Disponible para posiciones frontend y colaboraciones remotas. Respondo rápido por correo o WhatsApp.",
+    "emailBtn": "Enviar correo",
+    "githubBtn": "Ver GitHub",
+    "rows": [
+      { "k": "Email", "v": "apr991212@gmail.com", "type": "mailto" },
+      { "k": "Teléfono", "v": "+52 55 2740 7608", "type": "tel" },
+      { "k": "GitHub", "v": "github.com/arianna9912", "type": "github" },
+      { "k": "Ubicación", "v": "CDMX, México", "type": "text" }
+    ]
+  },
+  "footer": { "line1": "© 2026 ARIANNA PÉREZ RODRÍGUEZ", "line2": "arianna9912" }
+}

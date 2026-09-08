@@ -1,0 +1,109 @@
+{
+  "nav": { "about": "About", "skills": "Skills", "experience": "Experience", "projects": "Projects", "contact": "Contact", "contactCta": "Contact" },
+  "hero": {
+    "eyebrow": "Software Developer · CDMX, México",
+    "headline1": "Hi, I'm Arianna",
+   
+    "sub": "I build full stack products with React, Vue, Next, Nuxt, Python, Django and FastAPI — where every component, endpoint and analytics event fits like a piece of architecture.",
+    "cta": "View projects",
+    "cta2": "Contact me",
+    "meta": [
+      { "n": "03", "t": "Years of experience" },
+      { "n": "02", "t": "Countries, remote teams" },
+      { "n": "10+", "t": "Technologies in production" },
+      { "n": "6", "t": "Frontend + backend frameworks" },
+      { "n": "GA4", "t": "Implemented analytics" }
+    ],
+    "labels": { "ui": "UI", "uilayer": "REACT · VUE · NEXT", "api": "API", "apilayer": "REST · INTEGRATION", "ga4": "DATA", "l1": "UI-LAYER", "l2": "API-SYNC", "l3": "DATA-LAYER" }
+  },
+  "about": {
+    "sectionNum": "§ 01",
+    "title": "About",
+    "tag": "profile · technical summary",
+    "p1": "I'm a web developer with <strong>three years of experience</strong> building responsive, optimized applications. I mainly work with <strong>HTML, CSS, JavaScript</strong> and modern frameworks like React, Vue and their meta-frameworks, Next and Nuxt.",
+    "p2": "I care about continuous improvement in code and process: I integrate REST APIs cleanly, instrument GA4 analytics to understand real user behavior, and collaborate under agile methodologies focused on continuous delivery.",
+    "p3": "I'm currently pursuing a <strong>Master's in Computer Science</strong> at UAM-Azcapotzalco, combining professional practice with a deeper theoretical foundation.",
+    "spec": [
+      { "k": "ROLE", "v": "Frontend Developer" },
+      { "k": "MAIN STACK", "v": "React / Vue / Next / Nuxt", "accent": true },
+      { "k": "INTEGRATION", "v": "RESTful APIs" },
+      { "k": "ANALYTICS", "v": "Google Analytics 4" },
+      { "k": "METHODOLOGY", "v": "Scrum · Sprints" },
+      { "k": "EDUCATION", "v": "M.Sc. Computer Science" },
+      { "k": "LOCATION", "v": "CDMX, México" }
+    ]
+  },
+  "skills": {
+    "sectionNum": "§ 02",
+    "title": "Skills",
+    "tag": "modules · tech stack",
+    "groups": [
+      { "idx": "01", "title": "Programming languages", "chips": ["JavaScript", "TypeScript", "Python"] },
+      { "idx": "02", "title": "Frontend Frameworks", "chips": ["React", "Vue", "Next.js", "Nuxt", "Tailwind CSS", "PrimeVue"] },
+      { "idx": "03", "title": "Backend Frameworks", "chips": ["Django REST", "FastAPI", "RESTful APIs", "N8N · Automation"] },
+      { "idx": "04", "title": "Databases", "chips": ["PostgreSQL", "MySQL"] },
+      { "idx": "05", "title": "SEO", "chips": ["Google Analytics 4", "Meta tags / OG", "Sitemap / robots", "Performance"] },
+      { "idx": "06", "title": "Tools", "chips": ["Git", "Postman", "Firebase", "Notion", "N8N", "Scrum"] }
+    ]
+  },
+  "experience": {
+    "sectionNum": "§ 03",
+    "title": "Experience",
+    "tag": "pipeline · career history",
+    "jobs": [
+      {
+        "role": "Frontend Developer",
+        "date": "JUN 2025 — MAR 2026",
+        "org": "NQUAL5 · MEXICO",
+        "bullets": [
+          "Modern responsive web UI with Next.js and shadcn/ui, prioritizing a smooth experience and clean code.",
+          "Backend service integration through RESTful APIs.",
+          "Google Analytics 4 (GA4) implementation and technical SEO optimization: meta tags, Open Graph, sitemap and robots.",
+          "Workflow automation with N8N to streamline data processes and internal operations.",
+          "Active collaboration under agile methodologies (Scrum), participating in sprint planning and continuous delivery."
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "date": "MAY 2024 — MAR 2025",
+        "org": "KYNSOFT · ECUADOR",
+        "bullets": [
+          "Modern responsive web UI with Nuxt.js and PrimeVue, ensuring clean, consistent code.",
+          "Backend service integration through REST APIs.",
+          "Reusable components development with Tailwind CSS.",
+          "Active collaboration under agile methodologies (Scrum), participating in sprint planning and continuous delivery."
+        ]
+      }
+    ],
+    "edu": [
+      { "deg": "Master's in Computer Science", "inst": "UAM-Azcapotzalco", "yr": "CURRENTLY" },
+      { "deg": "Computer Science Engineering", "inst": "University of Computer Sciences", "yr": "2017 — 2022" }
+    ]
+  },
+  "projects": {
+    "sectionNum": "§ 04",
+    "title": "Projects",
+    "tag": "selection · recent work",
+    "note": "// three real projects — linked to my public repositories",
+    "cards": [
+      { "id": "PRJ::0x1", "status": "IN PRODUCTION", "title": "Clínica Vitalis", "desc": "Medical clinic website built with Next.js, shadcn/ui and Tailwind: responsive design, services and specialists sections, and appointment booking. Deployed on Vercel.", "tags": ["Next.js", "shadcn/ui", "Tailwind", "TypeScript"], "img": "/portfolio-arianna/projects/clinica-vitalis.jpg", "url": "https://github.com/arianna9912/medical-clinic" },
+      { "id": "PRJ::0x2", "status": "API · BACKEND", "title": "Medical Backend API", "desc": "REST API for the clinic built with FastAPI: models, schemas, routers and repositories with end-to-end Swagger documentation.", "tags": ["FastAPI", "Python", "REST", "Swagger"], "img": "/portfolio-arianna/projects/medical-backend.png", "url": "https://github.com/arianna9912/medical-backend" },
+      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Pokédex API", "desc": "Pokémon gallery that consumes the PokeAPI with search and detailed view, built as REST API consumption practice.", "tags": ["JavaScript", "PokeAPI", "REST", "CSS"], "img": "/portfolio-arianna/projects/pokedex.jpg", "url": "https://github.com/arianna9912/poke-api" }
+    ]
+  },
+  "contact": {
+    "sectionNum": "§ 05",
+    "tag": "contact · available for new challenges",
+    "heading": "Let's talk about your next project.",
+    "sub": "Available for frontend positions and remote collaborations. I reply fast by email or WhatsApp.",
+    "emailBtn": "Send email",
+    "githubBtn": "View GitHub",
+    "rows": [
+      { "k": "Email", "v": "apr991212@gmail.com", "type": "mailto" },
+      { "k": "Phone", "v": "+52 55 2740 7608", "type": "tel" },
+      { "k": "GitHub", "v": "github.com/arianna9912", "type": "github" },
+      { "k": "Location", "v": "CDMX, México", "type": "text" }
+    ]
+  },
+  "footer": { "line1": "© 2026 ARIANNA PÉREZ RODRÍGUEZ", "line2": "arianna9912" }
+}
