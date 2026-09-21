@@ -88,7 +88,7 @@
     "cards": [
       { "id": "PRJ::0x1", "status": "EN PRODUCCIÓN", "title": "Clínica Vitalis", "desc": "Sitio web para clínica médica con Next.js, shadcn/ui y Tailwind: diseño responsivo, secciones de servicios, especialistas y agendado de citas. Desplegado en Vercel.", "tags": ["Next.js", "shadcn/ui", "Tailwind", "TypeScript"], "img": "/portfolio-arianna/projects/clinica-vitalis.jpg", "url": "https://github.com/arianna9912/medical-clinic" },
       { "id": "PRJ::0x2", "status": "API · BACKEND", "title": "Medical Backend API", "desc": "API REST para la clínica construida con FastAPI: modelos, schemas, routers y repositorios con documentación Swagger end-to-end.", "tags": ["FastAPI", "Python", "REST", "Swagger"], "img": "/portfolio-arianna/projects/medical-backend.png", "url": "https://github.com/arianna9912/medical-backend" },
-      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Pokédex API", "desc": "Galería de Pokémon que consume la PokeAPI con búsqueda y vista detallada, pensada como práctica de consumo de APIs REST.", "tags": ["JavaScript", "PokeAPI", "REST", "CSS"], "img": "/portfolio-arianna/projects/pokedex.jpg", "url": "https://github.com/arianna9912/poke-api" }
+      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Pokédex API", "desc": "Galería de Pokémon que consume la PokeAPI con búsqueda y vista detallada, pensada como práctica de consumo de APIs REST.", "tags": ["JavaScript", "PokeAPI", "REST", "CSS"], "img": "/portfolio-arianna/projects/pokedex-2026.jpg", "url": "https://github.com/arianna9912/poke-api" }
     ]
   },
   "contact": {
