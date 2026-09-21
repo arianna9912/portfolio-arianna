@@ -43,7 +43,7 @@
       { "idx": "03", "title": "Frameworks Backend", "chips": ["Django REST", "FastAPI", "APIs RESTful", "N8N · Automatización"] },
       { "idx": "04", "title": "Bases de datos", "chips": ["PostgreSQL", "MySQL"] },
       { "idx": "05", "title": "SEO", "chips": ["Google Analytics 4", "Meta tags / OG", "Sitemap / robots", "Rendimiento"] },
-      { "idx": "06", "title": "Herramientas", "chips": ["Git", "Postman", "Firebase", "Notion", "N8N", "Scrum"] }
+      { "idx": "06", "title": "Herramientas", "chips": ["Git", "Postman", "Firebase", "Notion", "Figma", "Scrum"] }
     ]
   },
   "experience": {
