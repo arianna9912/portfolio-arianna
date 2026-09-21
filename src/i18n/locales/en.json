@@ -88,7 +88,7 @@
     "cards": [
       { "id": "PRJ::0x1", "status": "IN PRODUCTION", "title": "Clínica Vitalis", "desc": "Medical clinic website built with Next.js, shadcn/ui and Tailwind: responsive design, services and specialists sections, and appointment booking. Deployed on Vercel.", "tags": ["Next.js", "shadcn/ui", "Tailwind", "TypeScript"], "img": "/portfolio-arianna/projects/clinica-vitalis.jpg", "url": "https://github.com/arianna9912/medical-clinic" },
       { "id": "PRJ::0x2", "status": "API · BACKEND", "title": "Medical Backend API", "desc": "REST API for the clinic built with FastAPI: models, schemas, routers and repositories with end-to-end Swagger documentation.", "tags": ["FastAPI", "Python", "REST", "Swagger"], "img": "/portfolio-arianna/projects/medical-backend.png", "url": "https://github.com/arianna9912/medical-backend" },
-      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Pokédex API", "desc": "Pokémon gallery that consumes the PokeAPI with search and detailed view, built as REST API consumption practice.", "tags": ["JavaScript", "PokeAPI", "REST", "CSS"], "img": "/portfolio-arianna/projects/pokedex-2026.jpg", "url": "https://github.com/arianna9912/poke-api" }
+      { "id": "PRJ::0x3", "status": "PERSONAL", "title": "Friendzy Chat", "desc": "Private real-time chat between two users: text messages, voice notes, photos, emoji reactions and online status, with login via Google or a custom account. Vue 3 + Firebase.", "tags": ["Vue", "Firebase", "Realtime", "Vuetify"], "img": "/portfolio-arianna/projects/friendzy.jpg", "url": "https://github.com/arianna9912/friendzy" }
     ]
   },
   "contact": {
